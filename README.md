@@ -1,14 +1,20 @@
-# Laser Drone Targeting Tool
+# Laser Drone Target
 
-This project implements an Inertial Measurement Unit (IMU) integration for a laser drone targeting tool.
+A Python project for deploying and maintaining a laser drone target system.
 
 ## Features
 
-* Reads IMU data from a sensor
-* Calculates the drone's position and orientation using the IMU data
-* Demonstrates GPS‑independent navigation through successful target acquisition
+* Easy deployment in various environments
+* Automated updates and monitoring for performance and reliability
+* Comprehensive documentation for maintenance and troubleshooting purposes
 
 ## Usage
 
-1. Install the project using `poetry install`
-2. Run the tests using `poetry run pytest`
+1. Create a system using `create_system()`
+2. Deploy the system to a new environment using `deploy()`
+3. Update the performance data using `update()`
+4. Get the deployment and documentation using `get_deployment()` and `get_documentation()`
+
+## Testing
+
+Run the tests using `pytest` to ensure the system is working correctly.
