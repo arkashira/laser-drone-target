@@ -1,7 +1,7 @@
-# Drone Targeting Tool
+# Drone Targeting System
 
-This is a drone targeting tool that provides an intuitive user interface for targeting locations without GPS.
+A simple drone targeting system that uses an alternative positioning system to calculate the distance to a target.
 
 ## Usage
 
-To use the tool, run the following command:
+To run the system, use the following command:
